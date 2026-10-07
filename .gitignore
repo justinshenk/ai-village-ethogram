@@ -1,0 +1,14 @@
+# gated dataset (request access on Hugging Face) and derived outputs
+data/
+analysis/out/*
+!analysis/out/label_batches/
+analysis/out/label_batches/*
+!analysis/out/label_batches/INSTRUCTIONS.md
+analysis/site/*.json
+analysis/video/out/
+# local tooling
+.venv/
+.claude/
+.playwright-mcp/
+__pycache__/
+.DS_Store
